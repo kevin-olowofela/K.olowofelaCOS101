@@ -6,7 +6,7 @@ fn main() {
 	let acer:f64=1.0*250_000.00;
 	let s=t+m+hp+dell+acer;
 	println!("Sum of sales is {} ",s );
-	let a=s/5.0;
+	let a=s/10.0;
 	println!("average sale cost is {}",a );
 
 }
