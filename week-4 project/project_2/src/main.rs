@@ -13,7 +13,7 @@ fn main() {
     println!("How old are you");
     let mut age=String::new();
     io::stdin().read_line(&mut age).expect("Not a valid string");
-    let age:i32=age.trim().parse().expect("Not a valid age");
+    let age:u32=age.trim().parse().expect("Not a valid age");
 
     let amount_1:u32=1_560_00;
     let amount_2:u32=1_480_000;
