@@ -17,7 +17,7 @@ fn main() {
     let mut c=String::new();
     io::stdin().read_line(&mut c).expect("Not a valid string"); 
     let c:f32=c.trim().parse().expect("Not a valid number");
-
+   
     let d=b.powf(2.0)-4.0*a*c;
     
     if d > 0.0{
