@@ -6,6 +6,7 @@ fn main() {
 	let a:f32=2500.0;
 	let e:f32=2000.0;
 	let w:f32=2500.0;
+	println!("Welcome to kevin's restaurant\n Here is the menu");
 	println!("       Item                Code  Price");
     println!("Poundo Yam/Edinkaiko Soup   p     N{}",p);
     println!("Fried rice & Chicken        f     N{}",f );
