@@ -13,7 +13,8 @@ fn trapezium(){
 		},
 		Err(_)=>{
 			println!("Value must be a number ");
-			0.0},
+			return;
+			},
 		};
 
     let mut input_2=String::new();
@@ -29,7 +30,8 @@ fn trapezium(){
 			},
 			Err(_)=>{
 				println!("Value must be a number");
-				0.0
+				return;
+				
 			},
 
         	};
@@ -47,7 +49,8 @@ fn trapezium(){
 		},
 		Err(_)=>{
 			println!("Value must be a number");
-			0.0
+			return;
+			
 		},
 	};
 	let area=(height/2.0)*(base1 + base2);
@@ -69,7 +72,8 @@ fn rhombus(){
 		}
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 	let mut input_2=String::new();
@@ -85,7 +89,8 @@ fn rhombus(){
 		},
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 
@@ -108,7 +113,8 @@ fn parallelogram(){
 		}
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 	let mut input_2=String::new();
@@ -124,7 +130,8 @@ fn parallelogram(){
 		},
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 
@@ -145,7 +152,8 @@ fn cube(){
 		},
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 	let area = 6.0*length.powf(2.0);
@@ -166,7 +174,8 @@ fn cylinder(){
 		}
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 	let mut input_2=String::new();
@@ -182,7 +191,8 @@ fn cylinder(){
 		},
 	    Err(_)=>{
 	    	println!("Value must be a number");
-	    	0.0
+	    	return;
+	    	
 	    },
 	};
 	let volume=3.14*radius.powf(2.0)*height;
