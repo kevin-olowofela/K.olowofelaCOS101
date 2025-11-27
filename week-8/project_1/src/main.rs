@@ -42,18 +42,20 @@ fn main() {
             return;
         }
     };
-
+     let mut found= false;
      for (role,aps_level,min_exp,max_exp) in &aps_table{
     if user_title == *role && user_experience>= *min_exp && user_experience <=*max_exp{
         println!("The staff holds position {}",aps_level );
-        
-    } 
-    else {
-        println!("Invalid details");
+        found=true;
         break;
+        
     }
     
+    
 }
+if !found {
+        println!("invalid details");
+    }
 
 
 
